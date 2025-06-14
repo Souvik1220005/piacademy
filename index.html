@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Academy | Math Tuition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Pi_Academy_logo.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-mode" > <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="Pi_Academy_logo.png" alt="Pi Academy Logo" class="navbar-logo">
+                </a>
+            </div>
+
+            <div class="logo">
+                <a href="index.html">Pi Academy</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Teacher</a></li>
+                <li><a href="#courses">Classes & Syllabus</a></li>
+                <li><a href="#pyq">PYQs</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mode-toggle">
+                <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i> </button>
+            </div>
+            <div class="burger" >
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content" >
+                <h1>Unlock Your Math Potential!</h1>
+                <p>Expert tuition for WBBSE & CBSE Classes 8-12. Learn concepts, crack exams.</p>
+                <p>WBJEE | JEE Main | JEE Advanced</p>
+                <button class="cta-button" onclick="location.href='#contact'">Enroll Now</button>
+            </div>
+        </section>
+
+        <section id="about" class="about-section hidden">
+            <div class="container">
+                <h2>About Your Math Guru</h2>
+                <div class="teacher-info">
+                    <img src="teacher_pic.jpg" alt="Teacher's Picture" class="teacher-pic">
+                    <div class="teacher-details">
+                        <h3>Mr. Sabyasachi Banerjee</h3>
+                        <p class="designation">Experienced Math Educator & Mentor</p>
+                        <p><i class="fas fa-phone-alt"></i> Mobile: 9907713303 / 8159910419</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Location: Chapadali, Nabapally</p>
+                        <p>With over 8 years of dedicated experience, Mr. Sabyasachi Banerjee has successfully guided countless students through the intricacies of mathematics for both WBBSE and CBSE boards. Specializing in making complex concepts easy to understand, our approach focuses on building strong fundamentals, problem-solving skills, and critical thinking. We believe every student has the potential to excel in math, and we are committed to providing personalized attention and a supportive learning environment that fosters confidence and academic success. Our proven methodologies have consistently led to significant improvements in students' grades and a deeper appreciation for the subject.</p>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section hidden">
+            <div class="container">
+                <h2>Classes Offered</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h3>Class 8 (WBBSE & CBSE)</h3>
+                        <ul>
+                            <li>Strong Foundation Building</li>
+                            <li>Arithmetic, Algebra, Geometry</li>
+                            <li>Regular Quizzes & Practice</li>
+                        </ul>
+                        <button class="view-details-btn" onclick="location.href='#contact'">Join Now</button>
+                    </div>
+                    <div class="course-card">
+                        <h3>Class 9 (WBBSE & CBSE)</h3>
+                        <ul>
+                            <li>Advanced Algebra & Geometry</li>
+                            <li>Introduction to Coordinate Geometry</li>
+                            <li>Conceptual Clarity Sessions</li>
+                        </ul>
+                        <button class="view-details-btn" onclick="location.href='#contact'">Join Now</button>
+                    </div>
+                    <div class="course-card">
+                        <h3>Class 10 (WBBSE & CBSE)</h3>
+                        <ul>
+                            <li>Board Exam Focused Curriculum</li>
+                            <li>Trigonometry, Statistics, Mensuration</li>
+                            <li>Intensive PYQ Solving</li>
+                        </ul>
+                        <button class="view-details-btn" onclick="location.href='#contact'">Join Now</button>
+                    </div>
+                    <div class="course-card">
+                        <h3>Class 11 (WBBSE & CBSE)</h3>
+                        <ul>
+                            <li>Calculus & Advanced Algebra</li>
+                            <li>Vectors & 3D Geometry</li>
+                            <li>JEE/NEET Foundation</li>
+                        </ul>
+                        <button class="view-details-btn" onclick="location.href='#contact'">Join Now</button>
+                    </div>
+                    <div class="course-card">
+                        <h3>Class 12 (WBBSE & CBSE)</h3>
+                        <ul>
+                            <li>Comprehensive Board Exam Prep</li>
+                            <li>Advanced Calculus & Probability</li>
+                            <li>Targeted Competitive Exam Support</li>
+                        </ul>
+                        <button class="view-details-btn" onclick="location.href='#contact'">Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pyq" class="pyq-section hidden">
+            <div class="container">
+                <h2>Past Year Questions (PYQs)</h2>
+                <p>Access a comprehensive collection of previous year question papers for WBBSE and CBSE boards, Classes 8-12. Sharpen your skills with real exam questions!</p>
+                <div class="pyq-filters">
+                    <select id="board-select">
+                        <option value="">Select Board</option>
+                        <option value="wbbse">WBBSE</option>
+                        <option value="cbse">CBSE</option>
+                    </select>
+                    <select id="class-select">
+                        <option value="">Select Class</option>
+                        <option value="8">Class 8</option>
+                        <option value="9">Class 9</option>
+                        <option value="10">Class 10</option>
+                        <option value="11">Class 11</option>
+                        <option value="12">Class 12</option>
+                    </select>
+                    <button id="filter-pyq-btn">Filter PYQs</button>
+                </div>
+                <div class="pyq-results">
+                    <p class="no-pyq-message">Please select a board and class to view PYQs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section hidden">
+            <div class="container">
+                <h2>What Our Students Say</h2>
+                <div class="testimonial-carousel">
+                    <div class="testimonial-card">
+                        <p>"[Teacher's Name] made math enjoyable and easy to understand. My grades significantly improved from 60% to 90%!"</p>
+                        <h4>- [Student Name 1], Class 10 CBSE</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"The PYQ section was a game-changer for my board exams. It helped me practice effectively and score top marks. Highly recommend!"</p>
+                        <h4>- [Student Name 2], Class 12 WBBSE</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"I struggled with algebra, but after joining these classes, everything clicked. The personalized attention is truly invaluable."</p>
+                        <h4>- [Student Name 3], Class 9 CBSE</h4>
+                    </div>
+                     <div class="testimonial-card">
+                        <p>"Excellent teaching methods and a very supportive environment. I finally feel confident in mathematics."</p>
+                        <h4>- [Student Name 4], Class 11 WBBSE</h4>
+                    </div>
+                </div>
+                <button class="carousel-prev">❮</button>
+                <button class="carousel-next">❯</button>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section hidden">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> Email: sbsirpiacademy@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> Call: +91 9907713303 / 8159910419</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Visit Us: Chapadali, Nabapally</p>
+                    <div class="social-media">
+                        <a href="https://www.youtube.com/channel/UCqQhV7tALKKJ5EWZgFTgZaw" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61573767593793" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sbsirpiacademy/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919907713303?text=Hello%2C%20I%20would%20like%20to%20connect%20with%20you." target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <h3>Send a Message</h3>
+
+                    <input type="hidden" name="access_key" value="9928709c-c06d-4c65-bd69-3fac045c70a8">
+                    <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                    <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                    <input type="tel" name="phone" placeholder="Your Phone Number" aria-label="Your Phone Number">
+                    <textarea name="message" rows="5" required aria-label="Your Message" placeholder="Your Message" style="font-family: Arial, sans-serif;"></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <script>
+                    document.getElementById('contactForm').addEventListener('submit', function(e) {
+                        setTimeout(() => {
+                            this.reset();
+                        }, 100); // Delay to allow submission
+                    });
+                </script>
+
+            </div>
+        </section>
+    </main>
+
+    <footer style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background: #222; color: #fff;">
+  <div>
+    <!-- Your left footer content here -->
+    &copy; 2025 Pi Academy
+  </div>
+  <div style="display: flex; gap: 15px;">
+    <a href="https://www.youtube.com/channel/UCqQhV7tALKKJ5EWZgFTgZaw" target="_blank" style="color: #fff;"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=61573767593793" target="_blank" style="color: #fff;"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/sbsirpiacademy/?hl=en" target="_blank" style="color: #fff;"><i class="fab fa-instagram"></i></a>
+    
+  </div>
+</footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</body>
+
+
+
+</html>
